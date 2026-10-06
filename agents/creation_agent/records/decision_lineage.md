@@ -57,5 +57,3 @@ Empirical evidence—not historical novelty—determines whether those capabilit
 User confirmation: “I confirmed the team’s contribution decisions.”
 
 No dissent details were supplied. This is not a claim that every member voted unanimously. The original GPT proposal is preserved in `original_gpt_decision_lineage.md`.
-
-Canonical record: `agents/creation_agent/records/decision_lineage.md`.

@@ -1,48 +1,26 @@
-# Team Emerging Technology Creation Agent
+# Team Lab 3 — Emerging Technology Creation Agent
 
-Drop this `agents/creation_agent/` folder into the course scaffold.
+Status: integrated candidate, pending common model tests and human team approval.
 
-## Important
+The uploaded agent is now under `agents/creation_agent/`. The original root uploads and ZIP are retained for traceability; make future edits in the canonical agent folder. Course `core/` and `tools/` were copied unchanged from MASY1800_ET_Agent_Scaffold_v1_0. No agent design rules were redesigned during consolidation.
 
-Do **not** overwrite or modify `core/input_schema.json`, `core/output_schema.json`, or any other Frozen Core file.
-
-## Core behavior
-
-The agent separates:
-1. ET generally;
-2. ET for the application; and
-3. ET for the application in the organization.
-
-The general creation history should remain materially stable when technology and evidence are unchanged. Context changes the relevance, consequence and acceptable authority of inherited capabilities—not the historical record.
-
-## Test files
-
-- `cases/primary.json` — industrial procurement exception support.
-- `cases/contrast_1.json` — same technology in lower-consequence marketing work.
-- `cases/boundary_missing_context.json` — autonomous approval request with consequential context intentionally missing.
-
-## Typical scaffold workflow
-
-From the scaffold root, use the course-provided tools, for example:
+## Run the three cases
 
 ```bash
 python tools/check_frozen_core.py
 python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/primary.json
-# Run the generated prompt through the model and save the JSON response.
-python tools/validate_response.py agents/creation_agent/responses/primary_response.json
+python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/contrast_1.json
+python tools/build_prompt.py --agent agents/creation_agent --case agents/creation_agent/cases/boundary_missing_context.json
 ```
 
-Repeat for the contrast and boundary cases.
+Run each generated prompt through the chosen model. Save its unedited JSON response in `agents/creation_agent/responses/`, recording model, date, settings and any corrections. Validate each saved response with `python tools/validate_response.py <response-path>`. Prompt construction alone is not a model test.
 
-## Evidence
+## Before submission
 
-`evidence/source_register.json` is a starting register. Before submission, the team should open the original/authoritative sources and record its own access/check dates. Do not claim verification solely because another candidate checked a source.
+1. Contribution decisions are confirmed by the user in `agents/creation_agent/records/decision_lineage.md`. Append any actual dissent or later corrections.
+2. Run primary, contrast and missing-context tests; preserve outputs and a real weakness or remaining limitation. Compare stable history with changed contextual implications.
+3. Check consequential source claims against original sources and enter actual human check dates in the source register.
+4. Complete `agents/creation_agent/records/team_agent_record.md`; record team approval and the final commit in `TEAM_AGENT_INVENTORY.md`.
+5. Submit the repository/commit link, Team Agent Record and comparison/test evidence as required by your course submission page.
 
-## Team provenance
-
-See `records/decision_lineage.md`. The synthesis adopts:
-- mp7240-sudo: analytical backbone and evidence/applicability discipline;
-- yanisimova: historical/context boundary and epistemic safeguards;
-- Harry-max264: capability-task-limitation and simpler-alternative tests;
-- sawulya: explicit value condition;
-- yicrry777: common scaffold compatibility only from the reviewed state.
+See `CONSOLIDATION_RECORD.md` for technical checks and remaining work.

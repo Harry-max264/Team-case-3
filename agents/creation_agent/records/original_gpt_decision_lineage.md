@@ -1,9 +1,5 @@
 # Team Creation Agent — Decision Lineage
 
-**Contribution decisions confirmed by the user on 2026-10-06.** The user reported confirmation of the team contribution decisions, including compatibility-only attribution for the fifth candidate. This records the user’s confirmation; no independent re-comparison of all five repositories, individual votes, or additional dissent is asserted.
-
-Final agent validation and integration approval remain separate pending steps.
-
 ## Evaluation principle
 Candidates were compared on expert analytical behavior, not presentation polish or repository completeness.
 
@@ -51,11 +47,3 @@ Historical evidence determines what the technology inherited.
 Application analysis determines where those inheritances matter.
 Organizational context determines their relevance, consequence and acceptable authority.
 Empirical evidence—not historical novelty—determines whether those capabilities create organizational value.
-
-## Confirmation and dissent record
-
-User confirmation: “I confirmed the team’s contribution decisions.”
-
-No dissent details were supplied. This is not a claim that every member voted unanimously. The original GPT proposal is preserved in `original_gpt_decision_lineage.md`.
-
-Canonical record: `agents/creation_agent/records/decision_lineage.md`.
