@@ -1,5 +1,3 @@
-# Creation Agent
+# Creation Agent — team-1.0.0
 
-Canonical integrated candidate for Team Lab 3. Run course tools from the repository root; see the root README for commands and completion steps.
-
-Contribution decisions were confirmed by the user on 2026-10-06. Read `records/decision_lineage.md`. The original GPT assessment is preserved separately. Team approval and model validation are not yet established.
+See the root README for the completed evidence package. Three model-authored same-session responses are saved in `responses/`; original-source checks are in `evidence/`; comparison, execution provenance and the Team Agent Record are in `records/`. Contribution decisions are confirmed. Final post-test team approval remains pending. Core instructions and the three supplied cases have not been redesigned.

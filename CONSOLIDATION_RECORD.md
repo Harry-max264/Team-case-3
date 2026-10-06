@@ -1,11 +1,7 @@
-# Consolidation and verification record
+# Consolidation record
 
-Date: 2026-10-06. Base commit: 0716dfec0706332fff1285a635742b55aa5e055b.
+2026-10-06: initial upload folder structure repaired and unchanged course runtime added in d4ddb139789c6fef8f9e8b4334f73a759b0df312. The user confirmed team contribution decisions.
 
-The upload placed agent files at repository root, while its README required `agents/creation_agent/` and missing course tools. Restored the canonical paths and copied the course core/tools unchanged. Preserved original uploads and the original GPT lineage. Preserved the contribution decisions following the user’s explicit confirmation on 2026-10-06, including the fifth candidate’s compatibility-only attribution. Individual votes and independent comparative verification are not asserted.
+Follow-up at the user's request: preserved three actual model-authored same-session case responses, checked six original author abstracts and dates, recorded a comparison and actual evaluation limitations, completed the substantive Team Agent Record and added reproducible structural validation. Instructions and cases remain at the confirmed design baseline. See the canonical test protocol for disclosure: this is not a separate API run, independent review, business-process execution or reliability study.
 
-Technical validation: see the recorded command output in `records/structural_validation.txt`. These checks cover frozen files and prompt construction only. No model execution, empirical application performance, independent candidate comparison, final integration approval or human source verification is claimed.
-
-Remaining limitation: source summaries and hypothetical organizational constraints do not establish organizational value or autonomous approval authority. Common primary/contrast/boundary model outputs are still needed to assess actual specialist behavior.
-
-Team members must complete the Agent Record from actual tests and discussion. Do not mark placeholders as completed or invent details about the in-class discussion.
+Remaining human action: post-test acceptance and any human source-check attribution. No unreported team votes, attendance, workshop timing or approval are asserted.
